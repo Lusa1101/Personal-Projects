@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VarsityPlug", "VarsityPlug\VarsityPlug.csproj", "{341AB583-27C3-434E-8669-52AACABD54B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E3F6125-F472-470E-A61C-E7120BBA2EAB} = {3E3F6125-F472-470E-A61C-E7120BBA2EAB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VarsityPlugApi", "VarsityPlugApi\VarsityPlugApi.csproj", "{3E3F6125-F472-470E-A61C-E7120BBA2EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341AB583-27C3-434E-8669-52AACABD54B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3E3F6125-F472-470E-A61C-E7120BBA2EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3F6125-F472-470E-A61C-E7120BBA2EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3F6125-F472-470E-A61C-E7120BBA2EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3F6125-F472-470E-A61C-E7120BBA2EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9830104A-1680-4302-8DEF-1908CDD41926}
+	EndGlobalSection
+EndGlobal

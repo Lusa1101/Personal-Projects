@@ -1,0 +1,586 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\varsityplugapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\varsityplugapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\contexts\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\contexts\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\models\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\models\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\controllers\\prodimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\controllers\\prodimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\models\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\models\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplugapi\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3F6125-F472-470E-A61C-E7120BBA2EAB}|VarsityPlugApi\\VarsityPlugApi.csproj|solutionrelative:varsityplugapi\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\cartseller.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\cartseller.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\purchasehistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\purchasehistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\personaldetails.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\personaldetails.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|c:\\users\\omphu\\documents\\personal-projects\\varsityplug\\varsityplug\\page\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{341AB583-27C3-434E-8669-52AACABD54B2}|VarsityPlug\\VarsityPlug.csproj|solutionrelative:varsityplug\\page\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 54,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 246,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "VarsityPlug\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Models\\Product.cs",
+              "RelativeToolTip": "VarsityPlug\\Models\\Product.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T23:22:40.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\CartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartPage.xaml.cs",
+              "RelativeToolTip": "VarsityPlug\\Page\\CartPage.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwDYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T20:38:48.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Connect.cs",
+              "RelativeDocumentMoniker": "VarsityPlug\\Connect.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Connect.cs",
+              "RelativeToolTip": "VarsityPlug\\Connect.cs",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAAAA4BAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:52:05.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartPage.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\CartPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartPage.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\CartPage.xaml",
+              "ViewState": "AQIAAE4AAAAAAAAAAIBWwAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T07:17:51.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\ItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\ItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\ItemPage.xaml.cs",
+              "RelativeToolTip": "VarsityPlug\\Page\\ItemPage.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAhwEsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:30:59.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PurchaseHistory.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\PurchaseHistory.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\PurchaseHistory.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\PurchaseHistory.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\PurchaseHistory.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAEiCwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T12:58:05.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CartSeller.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartSeller.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\CartSeller.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\CartSeller.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\CartSeller.xaml",
+              "ViewState": "AQIAADIAAAAAAAAAAKB0wFIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T07:17:58.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddProductPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\AddProductPage.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\AddProductPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\AddProductPage.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\AddProductPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T07:19:06.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\ProfilePage.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\ProfilePage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAALCDwFkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T09:40:27.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\HomePage.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\HomePage.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T07:06:09.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\MainPage.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\MainPage.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\MainPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAALCDwEEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-29T09:16:20.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PersonalDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\PersonalDetails.xaml",
+              "RelativeDocumentMoniker": "VarsityPlug\\Page\\PersonalDetails.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\Page\\PersonalDetails.xaml",
+              "RelativeToolTip": "VarsityPlug\\Page\\PersonalDetails.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T06:56:18.174Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 68,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\PersonController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwCQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:37:00.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProdImageController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ProdImageController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\ProdImageController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ProdImageController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\ProdImageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBGwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:44:12.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:10:23.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BuyerController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\BuyerController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\BuyerController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\BuyerController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\BuyerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:18:42.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VarsityPlugApi.csproj",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\VarsityPlugApi.csproj",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
+              "RelativeToolTip": "VarsityPlugApi\\VarsityPlugApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T16:55:12.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:32:23.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:09:35.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\RatingController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\RatingController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwEIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:32:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\SellerController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\SellerController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:18:25.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Contexts\\Context.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Contexts\\Context.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Contexts\\Context.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Contexts\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:25:14.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductInventory.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Models\\ProductInventory.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Models\\ProductInventory.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Models\\ProductInventory.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Models\\ProductInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:31:05.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:51:07.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Buyer.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Models\\Buyer.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Models\\Buyer.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Models\\Buyer.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Models\\Buyer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:38:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Program.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Program.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Program.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvx8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:55:04.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BuyerService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\BuyerService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\BuyerService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\BuyerService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\BuyerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:04:37.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SellerService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\SellerService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\SellerService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\SellerService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\SellerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:04:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ReviewService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ReviewService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\ReviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:57:33.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\ImageService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ImageService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\ImageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:00:18.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\RatingService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\RatingService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\RatingService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\RatingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:57:58.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\CartService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\CartService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:57:18.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "VarsityPlugApi\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\Service\\ProductService.cs",
+              "RelativeToolTip": "VarsityPlugApi\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:56:45.142Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

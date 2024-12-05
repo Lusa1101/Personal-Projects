@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="VarsityPlug.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:VarsityPlug"
+    Shell.FlyoutBehavior="Disabled"
+    Title="VarsityPlug">
+    <Shell.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="fontColor">Black</x:String>
+            <Style x:Key="defaultFontColor" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>

@@ -1,0 +1,125 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VarsityPlug
+build_property.ProjectDir = C:\Users\omphu\Documents\Personal-Projects\VarsityPlug\VarsityPlug\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/AddProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.AddProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\AddProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\AddProductPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\CartPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/CartSeller.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.CartSeller.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\CartSeller.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\CartSeller.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\HomePage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/Inbox.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.Inbox.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Inbox.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Inbox.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/ItemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.ItemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\ItemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\ItemPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\MainPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/PersonalDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.PersonalDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\PersonalDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\PersonalDetails.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\ProductPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\ProfilePage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/PurchaseHistory.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.PurchaseHistory.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\PurchaseHistory.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\PurchaseHistory.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/SellerHomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.SellerHomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\SellerHomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\SellerHomePage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Page/SignupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Page.SignupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\SignupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\SignupPage.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/PopupPages/ItemPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.PopupPages.ItemPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = PopupPages\ItemPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = PopupPages\ItemPopup.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/VarsityPlug/VarsityPlug/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VarsityPlug.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

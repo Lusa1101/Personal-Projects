@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.MainPage"
+             BackgroundColor="#B9D17F"
+             Shell.BackgroundColor="DarkGreen">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="welcomeLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="Header" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                
+                <Setter Property="TextColor" Value="#312929" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="signButton" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="aboutText" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="entry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="WidthRequest" Value="280" />
+                <!--<Setter Property="HorizontalOptions" Value="Center" /> -->
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Shell.TitleView>
+        <HorizontalStackLayout VerticalOptions="Fill"
+                               HorizontalOptions="Center">
+            <Label Text="Welcome To Varsity Plug" 
+                   TextColor="White"
+                   FontSize="Medium"
+                   HeightRequest="30"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="CenterAndExpand"
+            Padding="30,0"
+            Spacing="25">
+            <Label Text=" " />
+            <Image Source="varsity_plug.jpeg"
+                   HeightRequest="250"/>
+            <HorizontalStackLayout RadioButtonGroup.GroupName="userMode"
+                                   HorizontalOptions="Center">
+                <RadioButton Content="BUYER"
+                             Value="Buyer"
+                             TextColor="Black"
+                             IsChecked="True"
+                             CheckedChanged="OnUserMode"/>
+                <RadioButton Content="SELLER" 
+                             Value="Seller"
+                             TextColor="Black"/>
+            </HorizontalStackLayout>
+            <Entry Placeholder="Username/Email"
+                   x:Name="username" 
+                   Style="{StaticResource entry}"
+                   HorizontalOptions="Start"/>
+            <HorizontalStackLayout Spacing="5">
+                <Entry Placeholder="Password" 
+                   x:Name="password"
+                   IsPassword="True"
+                   Style="{StaticResource entry}"
+                 />
+                <ImageButton Source="icons8_eye.png" 
+                             HeightRequest="30"
+                             WidthRequest="30"
+                             Clicked="OnPasswordEye"
+                             x:Name="passwordEye"/>
+            </HorizontalStackLayout>
+            <Label x:Name="signinHandler" 
+                   Text="Username and/or Password incorrect."
+                   IsVisible="False"/>
+            <Button Text="SIGN-IN"
+                    x:Name="signin"
+                    Style="{StaticResource signButton}"
+                    BackgroundColor="#198519"
+                    WidthRequest="250"
+                    Clicked="OnSignIn"/>
+            <Button Text="SIGN-UP"
+                    x:Name="signup"
+                    Style="{StaticResource signButton}"
+                    Background="#3B3E9F"
+                    WidthRequest="250"
+                    Clicked="GoToSignupPage" />
+            <Label Text="NEED ASSISTANCE"
+                   FontAttributes="Italic"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center"/>
+            <StackLayout Margin="20" Padding="20" Spacing="20"
+                         BackgroundColor="#AAEB7F">
+                <Label Text="ABOUT" 
+                       FontAttributes="Bold" 
+                       TextDecorations="Underline"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+                <Label Text="Are you an entreprenuer while studying at the University of Limpopo? Then you are at the right place to get some help with increasing your market space." 
+                       Style="{StaticResource aboutText}"/>
+                <Label Text="We are students, we understand the amount of stress you get each day from the academics alone. With business on the side, we can just imagine the strain it all has over you."
+                       Style="{StaticResource aboutText}"/>
+                <Label Text="Let us help you reach more people. All of them within a single location, UL." 
+                       Style="{StaticResource aboutText}"/>
+                <Label Text="Now GO AHEAD AND START HUSTLING!"
+                       Style="{StaticResource aboutText}"/>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

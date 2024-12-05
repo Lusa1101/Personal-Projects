@@ -1,0 +1,116 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.AddProductPage"
+             BackgroundColor="#E1E8D0"
+			 Shell.BackgroundColor="#BDCE97">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+
+			<Style x:Key="logo" TargetType="Label">
+				<Setter Property="FontSize" Value="Title" />
+				<Setter Property="HorizontalOptions" Value="Center" />
+				<Setter Property="VerticalOptions" Value="Center" />
+				<Setter Property="VerticalTextAlignment" Value="Center" />
+				<Setter Property="TextColor" Value="Black" />
+			</Style>
+
+			<Style x:Key="boxView" TargetType="BoxView">
+				<Setter Property="HeightRequest" Value="2" />
+				<Setter Property="Margin" Value="2, 10" />
+				<Setter Property="BackgroundColor" Value="#757575" />
+			</Style>
+			<Style x:Key="entry" TargetType="Entry">
+				<Setter Property="BackgroundColor" Value="White" />
+				<Setter Property="TextColor" Value="Black" />
+			</Style>
+			<Style x:Key="entryText" TargetType="Label">
+				<Setter Property="TextColor" Value="#757575" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<Shell.TitleView HeightRequest="100">
+		<HorizontalStackLayout VerticalOptions="Fill"
+						   Spacing="10">
+			<HorizontalStackLayout.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OnHomePage" />
+			</HorizontalStackLayout.GestureRecognizers>
+			<Image Source="varsity_plug.jpeg"
+			   HeightRequest="40"/>
+			<Label Text="Varsity Plug"
+               TextColor="Black"
+               FontSize="Medium"
+			   HeightRequest="27"/>
+		</HorizontalStackLayout>
+	</Shell.TitleView>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Order="Secondary"
+				 Text="Profile"
+				 Clicked="OnProfile"/>
+		<ToolbarItem Order="Secondary"
+			     Text="Add Product"
+				 Clicked="OnAddProduct"/>
+		<ToolbarItem Order="Secondary"
+			     Text="Change Mode"
+				 Clicked="OnChangeMode"/>
+		<ToolbarItem Order="Secondary"
+				 Text="Messenger" />
+		<ToolbarItem Order="Secondary"
+				 Text="Navigation" />
+		<ToolbarItem Order="Secondary"
+				 Text="Settings" />
+	</ContentPage.ToolbarItems>
+	
+	<ScrollView>
+		<VerticalStackLayout >
+			<StackLayout Spacing="20"
+						 Padding="20">
+				<Image Source="icons8_image1.png"
+				   WidthRequest="250">
+					<!--<Image.Clip>
+					<EllipseGeometry RadiusX="220"
+									 RadiusY="220" /> 
+				</Image.Clip> -->
+				</Image>
+
+				<StackLayout>
+					<Label Text="Product Name"
+							Style="{StaticResource entryText}" />
+					<Entry x:Name="productName"
+						   Style="{StaticResource entry}"/>
+				</StackLayout>
+
+				<StackLayout>
+					<Label Text="Product Description"
+							Style="{StaticResource entryText}"/>
+					<Entry x:Name="productDescription"
+						   Style="{StaticResource entry}" />
+				</StackLayout>
+
+				<StackLayout>
+					<Label Text="Product Price"
+							Style="{StaticResource entryText}"/>
+					<Entry x:Name="productPrice"
+						   Style="{StaticResource entry}"/>
+				</StackLayout>
+
+				<StackLayout>
+					<Label Text="Product Quantity"
+							Style="{StaticResource entryText}"/>
+					<Entry Placeholder="0"
+						   x:Name="quantity"
+						   Keyboard="Numeric"
+						   Style="{StaticResource entry}" />
+				</StackLayout>
+
+				<Button Text="ADD"
+						x:Name="addProduct"
+						Clicked="OnAddProduct"
+						BackgroundColor="#639276"
+						WidthRequest="200" />
+						<!--WidthRequest="{OnPlatform Android=200 WinUI=350}"-->
+			</StackLayout>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

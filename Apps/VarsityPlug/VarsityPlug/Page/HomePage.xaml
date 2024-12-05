@@ -1,0 +1,148 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.HomePage"
+             BackgroundColor="#E1E8D0"
+			 Shell.BackgroundColor="#BDCE97">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="logo" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="imageButton" TargetType="ImageButton">
+                <Setter Property="WidthRequest" Value="75" />
+                <Setter Property="HeightRequest" Value="75" />
+            </Style>
+            <Style x:Key="boxView" TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="2" />
+                <Setter Property="Margin" Value="2, 10" />
+                <Setter Property="BackgroundColor" Value="#757575" />
+            </Style>
+			<Style x:Key="picker" TargetType="Picker">
+				<Setter Property="BackgroundColor" Value="#EBEBEB" />
+			</Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+	<Shell.TitleView HeightRequest="100">
+		<HorizontalStackLayout VerticalOptions="Fill"
+							   Spacing="10">
+			<Image Source="varsity_plug.jpeg" 
+				   HeightRequest="40"/>
+			<Label Text="Varsity Plug"
+                   TextColor="Black"
+                   FontSize="Medium"
+				   HeightRequest="27"/>
+		</HorizontalStackLayout>
+	</Shell.TitleView>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Order="Secondary"
+					 Text="Profile"
+					 Clicked="OnProfile"/>
+		<ToolbarItem Order="Secondary"
+				     Text="Cart"
+					 Clicked="OnCart"/>
+		<ToolbarItem Order="Secondary"
+				     Text="Change Mode"
+					 Clicked="OnChangeMode"/>
+		<ToolbarItem Order="Secondary"
+					 Text="Messenger" />
+		<ToolbarItem Order="Secondary"
+					 Text="Navigation" />
+		<ToolbarItem Order="Secondary"
+					 Text="Settings" />
+	</ContentPage.ToolbarItems>
+
+    <CollectionView x:Name="catalogue" 
+                    ItemsLayout="VerticalGrid, 2" 
+                    SelectionMode="Single"
+					SelectionChanged="OnItemSelected">
+        <CollectionView.Header>
+            <StackLayout>
+                <StackLayout Padding="15"
+                            Spacing="15">
+                    <Entry x:Name="homeSearch" 
+                            Placeholder="Search"
+                            PlaceholderColor="#3C3C43"
+                            BackgroundColor="#FFFFFF"
+						    TextColor="Black"/>
+                    <Label x:Name="search" 
+                           IsVisible="False"/>
+                    <Button Text="SEARCH"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            BackgroundColor="#6C7680" 
+                            Clicked="OnSearch"/>
+                    <Grid ColumnDefinitions="*, *" ColumnSpacing="15">
+                        <Picker x:Name="filter"
+                                Title="Filter"
+                                Grid.Column="0"
+								Style="{StaticResource picker}">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+									<x:String>Filter</x:String>
+                                    <x:String>Department</x:String>
+                                    <x:String>Category</x:String>
+                                    <x:String>Sub-category</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+							<Picker.Shadow>
+								<Shadow Brush="black"
+										Offset="5,5"
+										Radius="7"
+										Opacity=".8"/>
+							</Picker.Shadow>
+                        </Picker>
+                        <Picker x:Name="sort"
+                                Title="Sort"
+                                Grid.Column="1"
+								Style="{StaticResource picker}">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+									<x:String>Sort</x:String>
+                                    <x:String>Price (Ascending)</x:String>
+                                    <x:String>Price (Descending)</x:String>
+                                    <x:String>Ratings</x:String>
+                                    <x:String>Most bought</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+							<Picker.Shadow>
+								<Shadow Brush="black"
+										Offset="5,5"
+										Radius="7"
+										Opacity=".8"/>
+							</Picker.Shadow>
+                        </Picker>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </CollectionView.Header>
+
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+				<Grid Margin="20">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="3*" />
+						<RowDefinition Height="1*" />
+						<RowDefinition Height="1*" />
+					</Grid.RowDefinitions>
+					<Image Grid.Row="0"
+						   Source="chopper.jpeg"
+						   WidthRequest="150" HeightRequest="150" />
+					<Label Grid.Row="1" Text="{Binding Name}"
+						   TextColor="Black"
+						   HorizontalOptions="Center"/>
+					<Label Grid.Row="2" Text="{Binding Price}"
+						   HorizontalOptions="Center"
+						   TextColor="Black"/>
+				</Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

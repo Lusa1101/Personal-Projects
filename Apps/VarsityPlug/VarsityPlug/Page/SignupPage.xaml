@@ -1,0 +1,219 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.SignupPage"
+             BackgroundColor="#B9D17F"
+             Shell.BackgroundColor="#BDCE97">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="entry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="WidthRequest" Value="300" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+            </Style>
+            <Style x:Key="signButton" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="text" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="Medium" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Shell.TitleView HeightRequest="100">
+        <HorizontalStackLayout VerticalOptions="Fill"
+						   Spacing="10">
+            <Image Source="varsity_plug.jpeg" 
+			   HeightRequest="40"/>
+            <Label Text="Varsity Plug"
+               TextColor="Black"
+               FontSize="Medium"
+			   HeightRequest="27"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20"
+                             Padding="20">
+            <Label Text="Name" 
+                   Style="{StaticResource text}"/>
+            <Entry x:Name="name"
+                   Style="{StaticResource entry}"
+                   Keyboard="Text"/>
+            <Label Text="Name invalid."
+                   x:Name="nameCheck" 
+                   IsVisible="False"/>
+
+            <Label Text="Surname" 
+                   Style="{StaticResource text}"/>
+            <Entry x:Name="surname"
+                   Style="{StaticResource entry}"
+                   Keyboard="Text"/>
+            <Label Text="Surname invalid."
+                   x:Name="surnameCheck" 
+                   IsVisible="False"/>
+
+            <Label Text="University ID" 
+                 Style="{StaticResource text}"
+                 x:Name="userTypeText"/>
+            <Entry x:Name="number"
+                Style="{StaticResource entry}"
+                   Keyboard="Numeric"/>
+            <Label x:Name="IDCheck" 
+                   Text="Your university ID is invalid."
+                   IsVisible="False"/>
+
+            <StackLayout >
+                <Label Text="User Type" 
+                       Style="{StaticResource text}"/>
+                <HorizontalStackLayout RadioButtonGroup.GroupName="userType">
+                    <RadioButton Content="Student"
+                                 Value="Student"
+                                 TextColor="Black"
+                                 IsChecked="True"
+                                 CheckedChanged="OnStudentTypeChange"/>
+                    <RadioButton Content="Staff" 
+                                 Value="Staff"
+                                 TextColor="Black" />
+                </HorizontalStackLayout>
+            </StackLayout>
+
+
+            <Label Text="Email" 
+                   Style="{StaticResource text}"/>
+            <Entry x:Name="email" 
+                   Style="{StaticResource entry}"
+                   Keyboard="Email"
+                   InputTransparent="True"/>
+            <Label x:Name="emailCheck"
+                   IsVisible="False" />
+
+            <Label Text="Contact Number" 
+                   Style="{StaticResource text}"/>
+            <Entry x:Name="cell"
+                   Keyboard="Numeric" 
+                   Style="{StaticResource entry}"/>
+            <Label Text="Invalid Cell Number (ZA)"
+                   x:Name="cellCheck"
+                   IsVisible="False" />
+
+            <Label Text="Password"
+                   Style="{StaticResource text}"/>
+            <HorizontalStackLayout
+                Padding="10"
+                Spacing="10">
+                <Entry x:Name="password1" 
+                        Placeholder="Password"
+                        Style="{StaticResource entry}"
+                        IsPassword="True"
+                       WidthRequest="250"/>
+                <ImageButton Source="icons8_eye.png"
+                             x:Name="password1Image" 
+                             Clicked="OnPassword1Eye"
+                             HeightRequest="30"
+                             WidthRequest="30"/>
+            </HorizontalStackLayout>
+            <StackLayout
+                    x:Name="password1Layout"
+                    IsVisible="False">
+                <HorizontalStackLayout>
+                    <Label Text="Capital Letter" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="capitalImg1"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Lower-Case Letter" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="lowerImg1"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Numeric Character" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="numericlImg1"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Special Character" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="specialImg1"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+            </StackLayout>
+
+            <HorizontalStackLayout
+                Padding="10"
+                Spacing="10">
+                <Entry x:Name="password2" 
+                       Placeholder="Password Confirm"
+                       Style="{StaticResource entry}"
+                       IsPassword="True"
+                       WidthRequest="250"/>
+                <ImageButton Source="icons8_eye.png"
+                             x:Name="password2Image" 
+                             Clicked="OnPassword2Eye"
+                             WidthRequest="30"
+                             HeightRequest="30"/>
+            </HorizontalStackLayout>
+            <StackLayout
+                    x:Name="password2Layout"
+                    IsVisible="False">
+                <HorizontalStackLayout>
+                    <Label Text="Capital Letter" />
+                    <Image Source="icons8_tick.png" 
+                            x:Name="capitalImg2"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"
+                           />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Lower-Case Letter" />
+                    <Image Source="icons8_tick.png" 
+                            x:Name="lowerImg2"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Numeric Character" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="numericlImg2"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Special Character" />
+                    <Image Source="icons8_tick.png" 
+                           x:Name="specialImg2"
+                           IsVisible="False"
+                           WidthRequest="20"
+                           HeightRequest="20"/>
+                </HorizontalStackLayout>
+            </StackLayout>
+            <Label Text="Passwords are not the same." 
+                   x:Name="passwordCheck"
+                   IsVisible="False"/>
+            
+            <Button Text="Sign Up"
+                    Style="{StaticResource signButton}"
+                    WidthRequest="250"
+                    Clicked="OnSignUp"/>
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

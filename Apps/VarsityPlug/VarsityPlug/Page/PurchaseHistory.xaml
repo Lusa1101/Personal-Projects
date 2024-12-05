@@ -1,0 +1,91 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.PurchaseHistory"
+             BackgroundColor="#E1E8D0"
+			 Shell.BackgroundColor="#BDCE97">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="logo" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+            <Style x:Key="boxView" TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="2" />
+                <Setter Property="Margin" Value="2, 10" />
+                <Setter Property="BackgroundColor" Value="#757575" />
+            </Style>
+            <Style x:Key="frames" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#C7D1D9"/>
+                <Setter Property="BorderColor" Value="#000000" />
+                <Setter Property="WidthRequest" Value="175" />
+            </Style>
+            <Style x:Key="frameText" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Shell.TitleView HeightRequest="100">
+        <HorizontalStackLayout VerticalOptions="Fill"
+			   Spacing="10">
+            <HorizontalStackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnHomePage" />
+            </HorizontalStackLayout.GestureRecognizers>
+            <Image Source="varsity_plug.jpeg"
+   HeightRequest="40"/>
+            <Label Text="Varsity Plug"
+            TextColor="Black"
+            FontSize="Medium"
+   HeightRequest="27"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Secondary"
+	 Text="Profile"
+	 Clicked="OnProfile"/>
+        <ToolbarItem Order="Secondary"
+     Text="Cart"
+	 Clicked="OnCart"/>
+        <ToolbarItem Order="Secondary"
+     Text="Change Mode"
+	 Clicked="OnChangeMode"/>
+        <ToolbarItem Order="Secondary"
+	 Text="Messenger" />
+        <ToolbarItem Order="Secondary"
+	 Text="Navigation" />
+        <ToolbarItem Order="Secondary"
+	 Text="Settings" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="15"
+                          Spacing="15">
+
+            <Frame Margin="2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="20" />
+                    </Grid.RowDefinitions>
+                    <Entry Placeholder="Ndivhuwo Mashau"
+                         InputTransparent="True"
+                         Grid.Row="0"/>
+                    <Label Text="Names"
+                         Grid.Row="1"/>
+                    <ImageButton Source="icons8_edit1.png" 
+                             WidthRequest="25"
+                             Grid.Row="1"
+                             HorizontalOptions="End"/>
+                </Grid>
+            </Frame>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+           x:Class="VarsityPlug.ItemPopup"
+           xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+           CanBeDismissedByTappingOutsideOfPopup="False"
+           >
+
+    <VerticalStackLayout HorizontalOptions="Center"
+                         BackgroundColor="#F9F9F9">
+        <Label Text="SELLER" 
+               TextColor="{StaticResource textColor}"/>
+        <Label x:Name="seller"
+               Text="Ndivuwo Mashau"
+               FontSize="Header"
+               TextColor="{StaticResource textColor}"/>
+        <Image Source="chopper.jpeg"/>
+        <Label x:Name="itemName"
+               TextColor="{StaticResource textColor}"/>
+        <Label x:Name="itemDescription"
+               TextColor="{StaticResource textColor}"/>
+        <Label x:Name="itemPrice" 
+               TextColor="{StaticResource textColor}"/>
+        <Button Text="Add to Cart"/>
+    </VerticalStackLayout>
+</mct:Popup>

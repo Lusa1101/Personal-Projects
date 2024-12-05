@@ -1,0 +1,162 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarsityPlug.ProfilePage"
+             BackgroundColor="#E1E8D0"
+			 Shell.BackgroundColor="#BDCE97">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="logo" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+            <Style x:Key="boxView" TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="2" />
+                <Setter Property="Margin" Value="2, 10" />
+                <Setter Property="BackgroundColor" Value="#757575" />
+            </Style>
+            <Style x:Key="frames" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#C7D1D9"/>
+                <Setter Property="BorderColor" Value="#000000" />
+                <Setter Property="WidthRequest" Value="175" />
+            </Style>
+            <Style x:Key="frameText" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+	<Shell.TitleView HeightRequest="100">
+		<HorizontalStackLayout VerticalOptions="Fill"
+							   Spacing="10">
+			<HorizontalStackLayout.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OnHomePage" />
+			</HorizontalStackLayout.GestureRecognizers>
+			<Image Source="varsity_plug.jpeg"
+				   HeightRequest="40"/>
+			<Label Text="Varsity Plug"
+                   TextColor="Black"
+                   FontSize="Medium"
+				   HeightRequest="27"/>
+		</HorizontalStackLayout>
+	</Shell.TitleView>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Order="Secondary"
+					 Text="Profile"
+					 Clicked="OnProfile"/>
+		<ToolbarItem Order="Secondary"
+				     Text="Cart"
+					 Clicked="OnCart"/>
+		<ToolbarItem Order="Secondary"
+				     Text="Change Mode"
+					 Clicked="OnChangeMode"/>
+		<ToolbarItem Order="Secondary"
+					 Text="Messenger" />
+		<ToolbarItem Order="Secondary"
+					 Text="Navigation" />
+		<ToolbarItem Order="Secondary"
+					 Text="Settings" />
+	</ContentPage.ToolbarItems>
+	
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*" />
+            <ColumnDefinition Width=".5*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".094*"/>
+            <RowDefinition Height=".261*" />
+            <RowDefinition Height=".056*" />
+            <RowDefinition Height=".177*" />
+            <RowDefinition Height=".035*" />
+            <RowDefinition Height=".177*" />
+            <RowDefinition Height=".035*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <Image Grid.Column="0" Grid.ColumnSpan="2"
+               Grid.Row="0" Grid.RowSpan="2"
+               Source="picca.jpg"
+               x:Name="profilePic"
+               VerticalOptions="Center">
+            <Image.Clip>
+                <EllipseGeometry RadiusX="120"
+                                 RadiusY="120"
+                                 Center="175, 120"/>
+            </Image.Clip>
+        </Image>
+        <ImageButton Source="icons8_edit.png" 
+                     Grid.Row="1" Grid.Column="1"
+                     WidthRequest="35"
+                     HorizontalOptions="Center"
+                     VerticalOptions="End"
+                     IsEnabled="True"
+                     Clicked="OnFileSelect"/>
+        <Label Grid.Row="2"
+               Grid.Column="0" Grid.ColumnSpan="2"
+               HorizontalOptions="Center"
+               FontSize="Title"
+               TextColor="Black"
+               x:Name="UserID"
+               Text="202244400"/>
+        <Frame Grid.Column="0"
+               Grid.Row="3"
+               Style="{StaticResource frames}">
+            <Image Source="icons8_security_pass.png" />
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnPersonalDetails" />
+            </Frame.GestureRecognizers>
+        </Frame>
+        <Label Grid.Column="0"
+               Grid.Row="4"
+               Style="{StaticResource frameText}"
+               Text="Personal Details"
+               TextColor="Black"/>
+        <Frame Grid.Column="0"
+               Grid.Row="5"
+               Style="{StaticResource frames}">
+            <Image Source="icons8_error.png" />
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnFileReport" />
+            </Frame.GestureRecognizers>
+        </Frame>
+        <Label Grid.Column="0"
+               Grid.Row="6"
+               Style="{StaticResource frameText}"
+               Text="File a report" 
+               TextColor="Black"/>
+        <Frame Grid.Column="1"
+               Grid.Row="3"
+               Style="{StaticResource frames}"
+               >
+            <Image Source="icons8_history.png" />
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnPurchaseHistory" />
+            </Frame.GestureRecognizers>
+        </Frame>
+        <Label Grid.Column="1"
+               Grid.Row="4"
+               Style="{StaticResource frameText}"
+               Text="Purchase History" 
+               TextColor="Black"/>
+        <Frame Grid.Column="1"
+               Grid.Row="5"
+               Style="{StaticResource frames}">
+            <Image Source="icons8_help.png" />
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnNeedHelp" />
+            </Frame.GestureRecognizers>
+        </Frame>
+        <Label Grid.Column="1"
+               Grid.Row="6"
+               Style="{StaticResource frameText}"
+               Text="Need help?" 
+               TextColor="Black"/>
+    </Grid>
+    
+</ContentPage>
