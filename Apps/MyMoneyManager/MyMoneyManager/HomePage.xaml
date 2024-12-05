@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:MyMoneyManager"
+			 xmlns:models="clr-namespace:MyMoneyManager.Models"
+             x:Class="MyMoneyManager.HomePage">
+
+    <ScrollView Padding="10">
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+			BackgroundColor="#FC4850">
+            <Label Text="My Money"
+				   FontSize="Header"
+				   FontAttributes="Bold"
+				   TextColor="#FFFFFF"
+				   HorizontalOptions="Center"/>
+            <Label Text="Planner"
+				   FontSize="Header"
+				   FontAttributes="Bold"
+				   TextColor="#FFFFFF"
+				   HorizontalOptions="Center"/>
+
+            <Line Stroke="White" X2="600"
+				  HorizontalOptions="Center"/>
+
+            <Label Text="BE YOUR OWN ACCOUNTANT" 
+				   HorizontalOptions="Center"/>
+
+            <CollectionView x:Name="incomeList"
+					        SelectionMode="Single"
+                            SelectionChanged="OnIncomeSelected">
+                <CollectionView.Header>
+                    <StackLayout>
+                        <Border Stroke="#E1C2C2"
+								Background="#E1C2C2">
+                            <Label Text="INCOME"
+								   TextColor="#000000"
+								   HorizontalOptions="Center"
+								   FontSize="Large"
+								   FontAttributes="Bold"
+								   VerticalTextAlignment="Center"/>
+                        </Border>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnIncomeDisplay"
+                                                  x:Name="onIncomeDisplay"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </CollectionView.Header>
+
+                <CollectionView.Footer>
+                    <HorizontalStackLayout HorizontalOptions="End"
+										   Spacing="5"
+										   Padding="5">
+                        <Label Text="{Binding income_actual_amount}"
+                               x:Name="incomeActualTotal"
+                               HorizontalTextAlignment="Center"
+							   BackgroundColor="White"
+							   WidthRequest="80"/>
+                        <Label Text="{Binding income_planned_amount}"
+                               x:Name="incomePlannedTotal"
+                               HorizontalTextAlignment="Center"
+							   BackgroundColor="White"
+							   WidthRequest="80"/>
+                    </HorizontalStackLayout>
+                </CollectionView.Footer>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout>
+                            <Frame Margin="10"
+                                   HeightRequest="80">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height=".4*"/>
+                                        <RowDefinition Height=".1*"/>
+                                        <RowDefinition Height=".4*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".4*"/>
+                                        <ColumnDefinition Width=".4*"/>
+                                        <ColumnDefinition Width=".1*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding title}"
+                                           Grid.Column="0"
+                                           Grid.Row="0"/>
+                                    <Label Text="{Binding actual_amount, StringFormat='Actual Amount:   {0}'}"
+                                           Grid.Column="0"
+                                           Grid.Row="2"/>
+                                    <Label Text="{Binding planned_amount, StringFormat='Planned Amount:   {0}'}"
+                                           Grid.Column="1"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+            <CollectionView x:Name="expenseList"
+                      SelectionMode="Single"
+                      SelectionChanged="OnExpenseSelected">
+                <CollectionView.Header>
+                    <StackLayout>
+                        <Border Stroke="#E1C2C2"
+								Background="#E1C2C2">
+                            <Label Text="EXPENSE"
+								   TextColor="#000000"
+								   HorizontalOptions="Center"
+								   FontSize="Large"
+								   FontAttributes="Bold"
+								   VerticalTextAlignment="Center"/>
+                        </Border>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnExpenseDisplay" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </CollectionView.Header>
+
+                <CollectionView.Footer>
+                    <HorizontalStackLayout HorizontalOptions="End"
+										   Spacing="5"
+										   Padding="5">
+                        <Label Text="0.00"
+                               x:Name="expenseActualTotal"
+                               HorizontalTextAlignment="Center"
+							   BackgroundColor="White"
+							   WidthRequest="80"/>
+                        <Label Text="0.00"
+                               x:Name="expensePlannedTotal"
+                               HorizontalTextAlignment="Center"
+							   BackgroundColor="White"
+							   WidthRequest="80"/>
+                    </HorizontalStackLayout>
+                </CollectionView.Footer>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout>
+                            <Frame Margin="10"
+                                   HeightRequest="80">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height=".4*"/>
+                                        <RowDefinition Height=".1*"/>
+                                        <RowDefinition Height=".4*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".4*"/>
+                                        <ColumnDefinition Width=".4*"/>
+                                        <ColumnDefinition Width=".1*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding subtitle}"
+                                           Grid.Column="0"
+                                           Grid.Row="0"/>
+                                    <Label Text="{Binding actual_amount, StringFormat='Actual Amount:   {0}'}"
+                                           Grid.Column="0"
+                                           Grid.Row="2"/>
+                                    <Label Text="{Binding planned_amount, StringFormat='Planned Amount:   {0}'}"
+                                           Grid.Column="1"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <StackLayout BackgroundColor="Azure"
+                         Padding="20"
+                         Spacing="10">
+                <Label Text="Enter Information"
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <HorizontalStackLayout RadioButtonGroup.GroupName="financeGroup"
+                                       RadioButtonGroup.SelectedValue="{Binding finance}"
+                                       HorizontalOptions="CenterAndExpand"
+                                       IsVisible="False">
+                    <RadioButton Content="Income"
+                                 Value="Income"/>
+                    <RadioButton Content="Expense"
+                                 Value="Expense"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                    <CheckBox CheckedChanged="OnExpenseCheck"
+                              x:Name="financeCheck"/>
+                    <Label Text="Expense"
+                           VerticalOptions="CenterAndExpand"/>
+                </HorizontalStackLayout>
+
+                <Entry Placeholder="Title"
+                       x:Name="title"
+                       WidthRequest="300"
+                       BackgroundColor="White"/>
+                <Entry Placeholder="SubTitle"
+                       x:Name="subTitle"
+                       WidthRequest="300"
+                       BackgroundColor="White"
+                       IsVisible="False"/>
+
+                <Button Text="Submit"
+                        Clicked="OnSubmitFinance"/>
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

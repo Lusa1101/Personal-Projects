@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\models\\union.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\models\\union.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\managerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\managerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\managerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\managerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\editorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\editorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\editorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\editorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|c:\\users\\omphu\\documents\\personal-projects\\mymoneymanager\\mymoneymanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A58CF-D9E7-4E85-BB76-86C7E937B410}|MyMoneyManager\\MyMoneyManager.csproj|solutionrelative:mymoneymanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\HomePage.xaml.cs",
+              "RelativeToolTip": "MyMoneyManager\\HomePage.xaml.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAGUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:46:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\ManagerPage.xaml",
+              "RelativeDocumentMoniker": "MyMoneyManager\\ManagerPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\ManagerPage.xaml",
+              "RelativeToolTip": "MyMoneyManager\\ManagerPage.xaml",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAJcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T12:48:01.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Union.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Models\\Union.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\Models\\Union.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Models\\Union.cs",
+              "RelativeToolTip": "MyMoneyManager\\Models\\Union.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:44:58.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\ManagerPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\ManagerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\ManagerPage.xaml.cs",
+              "RelativeToolTip": "MyMoneyManager\\ManagerPage.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAuwEYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:48:11.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyMoneyManager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\MainPage.xaml",
+              "RelativeToolTip": "MyMoneyManager\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T13:05:14.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyMoneyManager\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:04:22.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditorPage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\EditorPage.xaml",
+              "RelativeDocumentMoniker": "MyMoneyManager\\EditorPage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\EditorPage.xaml",
+              "RelativeToolTip": "MyMoneyManager\\EditorPage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAIBGwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T12:47:26.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\HomePage.xaml",
+              "RelativeDocumentMoniker": "MyMoneyManager\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\HomePage.xaml",
+              "RelativeToolTip": "MyMoneyManager\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T12:46:33.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditorPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\EditorPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\EditorPage.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\EditorPage.xaml.cs",
+              "RelativeToolTip": "MyMoneyManager\\EditorPage.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBGwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:47:45.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Repository.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\Repository.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Repository.cs",
+              "RelativeToolTip": "MyMoneyManager\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:44:20.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Constants.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\Constants.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\Constants.cs",
+              "RelativeToolTip": "MyMoneyManager\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBGwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:45:35.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MyMoneyManager\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyManager\\MyMoneyManager\\App.xaml.cs",
+              "RelativeToolTip": "MyMoneyManager\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:55:26.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
