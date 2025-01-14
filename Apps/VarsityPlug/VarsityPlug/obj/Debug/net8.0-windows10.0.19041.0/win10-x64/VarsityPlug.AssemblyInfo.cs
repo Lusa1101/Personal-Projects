@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VarsityPlug")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2b07784adcf16380f823c22c041d44a591de0441")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a2d056b9315356e71d14d50042fcf18007533d50")]
 [assembly: System.Reflection.AssemblyProductAttribute("VarsityPlug")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VarsityPlug")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

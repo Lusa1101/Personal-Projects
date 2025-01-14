@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj": {}
+    "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj": {
+    "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj",
+        "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj",
         "projectName": "VarsityPlug",
-        "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj",
+        "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlug\\VarsityPlug.csproj",
         "packagesPath": "C:\\Users\\omphu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlug\\obj\\",
+        "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlug\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

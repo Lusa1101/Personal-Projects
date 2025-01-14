@@ -36346,11 +36346,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyPlanner\\MyMoneyPlanner\\MyMoneyPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\MyMoneyPlanner\\MyMoneyPlanner\\MyMoneyPlanner.csproj",
       "projectName": "MyMoneyPlanner",
-      "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyPlanner\\MyMoneyPlanner\\MyMoneyPlanner.csproj",
+      "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\MyMoneyPlanner\\MyMoneyPlanner\\MyMoneyPlanner.csproj",
       "packagesPath": "C:\\Users\\omphu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\MyMoneyPlanner\\MyMoneyPlanner\\obj\\",
+      "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\MyMoneyPlanner\\MyMoneyPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -3172,11 +3172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
+      "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
       "projectName": "VarsityPlugApi",
-      "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
+      "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlugApi\\VarsityPlugApi.csproj",
       "packagesPath": "C:\\Users\\omphu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\VarsityPlug\\VarsityPlugApi\\obj\\",
+      "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\VarsityPlug\\VarsityPlugApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
