@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omphu\\source\\repos\\BusinessManager\\BusinessManager\\BusinessManager.csproj": {}
+    "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\BusinessManager\\BusinessManager\\BusinessManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omphu\\source\\repos\\BusinessManager\\BusinessManager\\BusinessManager.csproj": {
+    "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\BusinessManager\\BusinessManager\\BusinessManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphu\\source\\repos\\BusinessManager\\BusinessManager\\BusinessManager.csproj",
+        "projectUniqueName": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\BusinessManager\\BusinessManager\\BusinessManager.csproj",
         "projectName": "BusinessManager",
-        "projectPath": "C:\\Users\\omphu\\source\\repos\\BusinessManager\\BusinessManager\\BusinessManager.csproj",
+        "projectPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\BusinessManager\\BusinessManager\\BusinessManager.csproj",
         "packagesPath": "C:\\Users\\omphu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphu\\source\\repos\\BusinessManager\\BusinessManager\\obj\\",
+        "outputPath": "C:\\Users\\omphu\\Documents\\Personal-Projects\\Apps\\BusinessManager\\BusinessManager\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
