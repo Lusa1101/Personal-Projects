@@ -1,0 +1,1 @@
+C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\BusinessManager.csproj;x64

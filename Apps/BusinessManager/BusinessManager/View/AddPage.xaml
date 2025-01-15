@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusinessManager.View.AddPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0"
+                             Spacing="25"
+                             BackgroundColor="PapayaWhip">
+
+            <Label Text="Please add all the required information."
+               Style="{StaticResource header}"/>
+
+            <Label Text="Category">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCategoryTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <StackLayout x:Name="categoryLayout" Spacing="15"
+                     Padding="15"
+                     IsVisible="False">
+                <Entry Placeholder="Name of the category"
+                       x:Name="categoryEntry"/>
+                <Button Text="Add"
+                    Clicked="OnAddCategory"/>
+            </StackLayout>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

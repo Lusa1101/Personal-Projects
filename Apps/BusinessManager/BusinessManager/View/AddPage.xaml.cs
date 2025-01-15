@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace BusinessManager.View
 {
-    internal class AddPage
+    partial class AddPage : ContentPage
     {
+        public AddPage()
+        {
+            InitializeComponent();
+        }
+
+        void OnAddCategory (object sender, EventArgs e)
+        {
+
+        }
+        void OnCategoryTapped(object sender, TappedEventArgs e)
+        {
+            
+        }
     }
 }
