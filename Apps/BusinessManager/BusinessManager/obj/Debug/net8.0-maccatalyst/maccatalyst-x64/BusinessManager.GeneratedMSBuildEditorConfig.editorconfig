@@ -45,3 +45,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusinessManager.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/omphu/Documents/Personal-Projects/Apps/BusinessManager/BusinessManager/View/AddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessManager.View.AddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddPage.xaml
