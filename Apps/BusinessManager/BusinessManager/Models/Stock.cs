@@ -10,7 +10,7 @@ namespace BusinessManager.Models
     {
         public int Stock_id { get; set; }
         public string? Product_id { get; set; }
-        public decimal Cost_per_unit { get; set; }
+        public decimal Cost { get; set; }
         public int Total_units { get; set; }
         public decimal Unit_price { get; set; }
         public bool Is_available { get; set; } = true;

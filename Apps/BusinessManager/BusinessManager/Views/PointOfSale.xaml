@@ -1,0 +1,51 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusinessManager.Views.PointOfSale">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="label" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="collectionLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ScrollView>
+        <VerticalStackLayout Spacing="12"
+                             Padding="20"
+                             BackgroundColor="BurlyWood">
+            <Label Text="Your Point Of Sale"
+                   Style="{StaticResource header}"/>
+
+            <Picker Title="Filter"
+                    TextColor="Black"
+                    BackgroundColor="AliceBlue"
+                    x:Name="filter"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="OnFilterChanged"/>
+
+            <CollectionView x:Name="collection" ItemsLayout="VerticalGrid, 3" 
+                            SelectionChanged="OnSelected" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="20">
+                            <StackLayout Spacing="5">
+                                <Label Text="{Binding Name}"/>
+                                <Label Text="{Binding Price, StringFormat='{}{0:F2}'}"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button x:Name="invoiceTotal"
+                    Clicked="OnInvoiceSummary"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

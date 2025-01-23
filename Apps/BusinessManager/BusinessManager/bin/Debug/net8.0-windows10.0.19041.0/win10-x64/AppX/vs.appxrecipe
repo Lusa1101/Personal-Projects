@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1E58FB36A08A5E00BBA08F140F672B76B46A59905925CF797B5270EE0E968AF2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>24546C15F8D8C708CED22FED662F59D0A5AEDF5DC0D4639E1655E1E3F720686F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.businessmanager_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.businessmanager_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.businessmanager</RegisteredPackageID>
@@ -29,265 +29,273 @@
     <AppXManifest Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-15T13:03:53.673</Modified>
+      <Modified>2025-01-23T07:39:39.786</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-15T13:03:53.373</Modified>
+      <Modified>2025-01-22T20:04:21.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BusinessManager.runtimeconfig.json">
       <PackagePath>BusinessManager.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-15T13:03:52.833</Modified>
+      <Modified>2025-01-17T14:39:01.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BusinessManager.dll">
       <PackagePath>BusinessManager.dll</PackagePath>
-      <Modified>2025-01-15T13:03:51.063</Modified>
+      <Modified>2025-01-23T07:39:39.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BusinessManager.exe</PackagePath>
-      <Modified>2025-01-15T13:03:51.093</Modified>
+      <Modified>2025-01-23T07:39:39.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-01-14T22:41:06.272</Modified>
+      <Modified>2024-12-23T19:23:47.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:41:39.530</Modified>
+      <Modified>2025-01-17T14:35:27.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:41:39.566</Modified>
+      <Modified>2025-01-17T14:35:27.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:41:39.616</Modified>
+      <Modified>2025-01-17T14:35:27.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:41:39.686</Modified>
+      <Modified>2025-01-17T14:35:27.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:41:40.000</Modified>
+      <Modified>2025-01-17T14:35:27.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-01-14T22:41:06.259</Modified>
+      <Modified>2024-12-23T19:23:47.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-01-14T22:41:06.263</Modified>
+      <Modified>2024-12-23T19:23:47.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-14T22:50:59.516</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.499</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.499</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.497</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.498</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.497</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.507</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.505</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.500</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.504</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.500</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.516</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.516</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.516</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.515</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.515</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.514</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.514</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.508</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.514</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.510</Modified>
+      <Modified>2025-01-22T20:02:31.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.493</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.493</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.497</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.497</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.496</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.496</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.494</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.489</Modified>
+      <Modified>2025-01-22T20:02:31.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-14T22:50:59.488</Modified>
+      <Modified>2025-01-22T20:02:31.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_add.scale-100.png">
+      <PackagePath>icons8_add.scale-100.png</PackagePath>
+      <Modified>2025-01-22T20:02:31.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_minus.scale-100.png">
+      <PackagePath>icons8_minus.scale-100.png</PackagePath>
+      <Modified>2025-01-22T20:02:31.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\Documents\Personal-Projects\Apps\BusinessManager\BusinessManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BusinessManager.deps.json">
       <PackagePath>BusinessManager.deps.json</PackagePath>
-      <Modified>2025-01-15T13:03:52.603</Modified>
+      <Modified>2025-01-17T14:39:00.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +304,34 @@
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\azure.core\1.38.0\lib\net6.0\Azure.Core.dll">
+      <PackagePath>Azure.Core.dll</PackagePath>
+      <Modified>2024-02-26T15:24:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\azure.identity\1.11.4\lib\netstandard2.0\Azure.Identity.dll">
+      <PackagePath>Azure.Identity.dll</PackagePath>
+      <Modified>2024-06-10T16:43:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\communitytoolkit.maui\9.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-05-03T07:49:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\communitytoolkit.maui.core\9.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-05-03T07:49:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\communitytoolkit.mvvm\8.0.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2022-08-03T23:09:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2020-04-14T22:39:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll">
+      <PackagePath>Microsoft.Data.SqlClient.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -337,6 +373,38 @@
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2024-03-11T15:36:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identity.client\4.61.3\lib\net6.0\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2024-06-06T22:09:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identity.client.extensions.msal\4.61.3\lib\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll">
+      <PackagePath>Microsoft.Identity.Client.Extensions.Msal.dll</PackagePath>
+      <Modified>2024-06-06T22:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.abstractions\6.35.0\lib\net6.0\Microsoft.IdentityModel.Abstractions.dll">
+      <PackagePath>Microsoft.IdentityModel.Abstractions.dll</PackagePath>
+      <Modified>2023-12-01T04:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.jsonwebtokens\6.35.0\lib\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll">
+      <PackagePath>Microsoft.IdentityModel.JsonWebTokens.dll</PackagePath>
+      <Modified>2023-12-01T04:34:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.logging\6.35.0\lib\net6.0\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+      <Modified>2023-12-01T04:35:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.protocols\6.35.0\lib\net6.0\Microsoft.IdentityModel.Protocols.dll">
+      <PackagePath>Microsoft.IdentityModel.Protocols.dll</PackagePath>
+      <Modified>2023-12-01T04:37:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\6.35.0\lib\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <PackagePath>Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</PackagePath>
+      <Modified>2023-12-01T04:48:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.identitymodel.tokens\6.35.0\lib\net6.0\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+      <Modified>2023-12-01T04:41:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.maui.controls.compatibility\8.0.61\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
       <Modified>2024-06-24T01:33:38.000</Modified>
@@ -364,6 +432,10 @@
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.61\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2024-06-24T01:33:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.sqlserver.server\1.0.0\lib\netstandard2.0\Microsoft.SqlServer.Server.dll">
+      <PackagePath>Microsoft.SqlServer.Server.dll</PackagePath>
+      <Modified>2022-01-27T17:19:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -424,6 +496,82 @@
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-03-11T10:57:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.clientmodel\1.0.0\lib\net6.0\System.ClientModel.dll">
+      <PackagePath>System.ClientModel.dll</PackagePath>
+      <Modified>2024-01-03T17:43:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2023-10-31T14:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.diagnostics.eventlog\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>System.Diagnostics.EventLog.Messages.dll</PackagePath>
+      <Modified>2023-10-31T14:59:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.diagnostics.eventlog\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2023-10-31T14:59:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.identitymodel.tokens.jwt\6.35.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
+      <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
+      <Modified>2023-12-01T04:31:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.memory.data\1.0.2\lib\netstandard2.0\System.Memory.Data.dll">
+      <PackagePath>System.Memory.Data.dll</PackagePath>
+      <Modified>2021-04-08T16:45:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.runtime.caching\8.0.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll">
+      <PackagePath>System.Runtime.Caching.dll</PackagePath>
+      <Modified>2023-10-31T15:00:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+      <Modified>2023-10-31T14:59:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\de\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>de\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\es\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>es\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\fr\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>fr\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\it\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>it\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\ja\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>ja\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\ko\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>ko\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\ru\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>ru\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient\5.2.2\lib\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Data.SqlClient.resources.dll</PackagePath>
+      <Modified>2024-08-27T18:46:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.maui.controls.core\8.0.61\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -560,6 +708,10 @@
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.maui.controls.core\8.0.61\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
       <Modified>2024-06-24T01:32:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.data.sqlclient.sni.runtime\5.2.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll">
+      <PackagePath>Microsoft.Data.SqlClient.SNI.dll</PackagePath>
+      <Modified>2024-02-20T22:30:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\omphu\.nuget\packages\microsoft.graphics.win2d\1.2.0\runtimes\win-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>

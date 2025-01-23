@@ -11,7 +11,7 @@ namespace BusinessManager.Models
         public int Expence_id { get; set; }
         public string? Type { get; set; } = "Personal";
         public string? Name { get; set; }
-        public decimal? Amount { get; set; }
+        public decimal Amount { get; set; }
         public DateOnly? DateCreated { get; set; }
         public DateTime? DateModified { get; set; }
     }

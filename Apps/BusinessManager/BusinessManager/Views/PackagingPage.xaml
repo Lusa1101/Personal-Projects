@@ -1,0 +1,45 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusinessManager.Views.PackagingPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15"
+                             Padding="15">
+
+            <Picker Title="Category"
+                    x:Name="categories"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="OnCategorySelected"/>
+
+            <Picker Title="Subcategory"
+                    x:Name="subcategories"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="OnSubcategorySelected"/>
+
+            <Picker Title="Product"
+                    x:Name="products"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="OnProductSelected"/>
+
+            <Picker Title="Stock"
+                    x:Name="stocks"
+                    ItemDisplayBinding="{Binding Stock_id}"
+                    SelectedIndexChanged="OnStockSelected"/>
+
+            <Picker Title="Package"
+                    x:Name="packages"
+                    SelectedIndexChanged="OnPackageSelected"/>
+
+            <Entry Placeholder="Quantity"
+                   x:Name="quantity"/>
+
+            <Entry Placeholder="Price"
+                   x:Name="price"/>
+
+            <Button Text="Submit"
+                    Clicked="OnSubmitPackaging"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

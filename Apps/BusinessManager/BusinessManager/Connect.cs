@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -84,7 +85,7 @@ namespace BusinessManager
 
         public string InsertStock(Stock stock)
         {
-            string query = $"INSERT INTO Stock (Stock_id, Product_id, Cost_per_unit, Total_units, Unit_price, Needs_Packaging, Is_available) VALUES ('{stock.Stock_id}', '{stock.Product_id}', {stock.Cost_per_unit}, {stock.Total_units}, {stock.Unit_price}, {stock.Needs_Packaging}, {stock.Is_available})";
+            string query = $"INSERT INTO Stock (Stock_id, Product_id, Cost, Total_units, Unit_price, Needs_Packaging, Is_available) VALUES ('{stock.Stock_id}', '{stock.Product_id}', {stock.Cost.ToString(CultureInfo.InvariantCulture)}, {stock.Total_units}, {stock.Unit_price}, '{stock.Needs_Packaging}', '{stock.Is_available}')";
             return Insert(query);
         }
 
@@ -96,7 +97,7 @@ namespace BusinessManager
 
         public string InsertExpense(Expense expense)
         {
-            string query = $"INSERT INTO EXPENSE (expense_id, type, name, amount) VALUES ({expense.Expence_id}, '{expense.Type}', '{expense.Name}', {expense.Amount})";
+            string query = $"INSERT INTO EXPENSE (expense_id, type, name, amount) VALUES ({expense.Expence_id}, '{expense.Type}', '{expense.Name}', {expense.Amount.ToString(CultureInfo.InvariantCulture)})";
             return Insert(query);
         }
 
@@ -108,19 +109,19 @@ namespace BusinessManager
 
         public string InsertInvoiceLine(Invoice_Line line)
         {
-            string query = $"INSERT INTO INVOICE_LINE (line_id, invoice_id, quantity, discount) VALUES ({line.Line_id}, {line.Invoice_id}, {line.Quantity}, {line.Discount})";
+            string query = $"INSERT INTO INVOICE_LINE (line_id, invoice_id, stock_id, quantity, discount) VALUES ({line.Line_id}, {line.Invoice_id}, {line.Stock_id}, {line.Quantity}, {line.Discount.ToString(CultureInfo.InvariantCulture)})";
             return Insert(query);
         }
 
         public string InsertPackage(Package package)
         {
-            string query = $"INSERT INTO Package (package_id, name, size, cost, quantity) VALUES ('{package.Package_id}', '{package.Name}','{package.Size}', '{package.Cost}', {package.Quantity})";
+            string query = $"INSERT INTO Package (package_id, name, size, cost, quantity) VALUES ('{package.Package_id}', '{package.Name}','{package.Size}', {package.Cost.ToString(CultureInfo.InvariantCulture)}, {package.Quantity})";
             return Insert(query);
         }
 
         public string InsertPackaging(Packaging packaging)
         {
-            string query = $"INSERT INTO Packaging (packaging_id, package_id, stock_id, quantity, unit_price) VALUES ('{packaging.Packaging_id}', '{packaging.Package_id}', {packaging.Stock_id}, {packaging.Quantity}, {packaging.Unit_price})";
+            string query = $"INSERT INTO Packaging (packaging_id, package_id, stock_id, quantity, unit_price) VALUES ('{packaging.Packaging_id}', '{packaging.Package_id}', {packaging.Stock_id}, {packaging.Quantity}, {packaging.Unit_price.ToString(CultureInfo.InvariantCulture)})";
             return Insert(query);
         }
 
@@ -283,7 +284,7 @@ namespace BusinessManager
             {
                 try
                 {
-                    string query = "Select stock_id, product_id, cost_per_unit, total_units, unit_price, needs_packaging, is_available from stock order by stock_id";
+                    string query = "Select stock_id, product_id, cost, total_units, unit_price, needs_packaging, is_available from stock order by datecreated";
                     SqlCommand cmd = new SqlCommand(query, connection);
                     cmd.Connection.Open();
 
@@ -295,7 +296,7 @@ namespace BusinessManager
                             Stock stock = new Stock();
                             stock.Stock_id = functions.IntegerConverter(String.Format("{0}", reader[0]));
                             stock.Product_id = String.Format("{0}", reader[1]);
-                            stock.Cost_per_unit = functions.DecimalConverter(String.Format("{0}", reader[2]));
+                            stock.Cost = functions.DecimalConverter(String.Format("{0}", reader[2]));
                             stock.Total_units = functions.IntegerConverter(String.Format("{0}", reader[3]));
                             stock.Unit_price = functions.DecimalConverter(String.Format("{0}", reader[4]));
                             stock.Needs_Packaging = functions.BoolConverter(String.Format("{0}", reader[5]));
@@ -576,6 +577,156 @@ namespace BusinessManager
                     return new List<Packaging>();
                 }
             }
+        }
+
+        public List<DisplayProduct> ReturnDisplayProducts(bool needs_packaging)
+        {
+            List<DisplayProduct> products = new();
+            try
+            {
+                connection = new SqlConnection(connectionString);
+
+                using(connection)
+                {
+                    try
+                    {
+                        string query = (!needs_packaging) ? $"select p.Name, p.Subcategory_id, s.stock_id, round(s.unit_price, 2) " +
+                                        $"from product p join stock s on p.product_id = s.product_id where s.Needs_Packaging=0 and s.Is_available='{true}';" :
+                                        "select p.Name, p.Subcategory_id, s.stock_id, round(pk.unit_price, 2) " +
+                                        $"from product p join stock s on p.product_id = s.product_id join packaging pk on pk.stock_id = s.stock_id where s.Needs_packaging=1 and s.Is_available='{true}';";
+                        
+                        SqlCommand cmd = new SqlCommand(query, connection);
+                        cmd.Connection.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while(reader.Read())
+                            {
+                                DisplayProduct product = new ();
+                                product.Name = reader[0].ToString();
+                                product.Subcategory_id = reader[1].ToString();
+                                product.Stock_id = functions.IntegerConverter(String.Format("{0}" ,reader[2]));
+                                product.Price = functions.DecimalConverter(String.Format("{0}", reader[3]));
+
+                                products.Add(product);
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine(ex.Message); 
+                    }
+                }
+            }
+            catch(Exception ex) 
+            {
+                Debug.WriteLine(ex.Message);
+            }
+            return products;
+        }
+
+        string Update(string query)
+        {
+            try
+            {
+                connection = new SqlConnection(this.connectionString);
+
+                using (connection)
+                {
+                    try
+                    {
+
+                        SqlCommand cmd = new SqlCommand(query, connection);
+                        int result = cmd.ExecuteNonQuery();
+
+                        if (result > 0)
+                            return "Successfully Updated.";
+                        else
+                            return "Update was unsuccessfull";
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine(ex.Message);
+                        return $"Update: {ex.Message}";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return $"Update Product : {ex.Message}";
+            }
+        }
+
+        public string UpdateProduct(Product product)
+        {
+            string query = $"update product set description='{product.Description}' where product_id='{product.Product_id}'";
+            
+            return Update(query);
+        }
+
+        public string UpdateStock(Stock stock)
+        {
+            string query = $"update stock set is_available='{stock.Is_available}' where stock_id={stock.Stock_id}";
+
+            return Update(query);
+        }
+
+        string Delete(string query)
+        {
+            try
+            {
+                connection = new SqlConnection(this.connectionString);
+                using (connection)
+                {
+                    SqlCommand cmd = new SqlCommand(query, connection);
+                    int result = cmd.ExecuteNonQuery();
+
+                    if (result > 0)
+                        return "Deleted with success.";
+                    else
+                        return "Delete was unsuccessful";
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return $"Delete: {ex.Message}";
+            }
+        }
+
+        public string DeleteCategory(Product_Category category)
+        {
+            string query = $"delete from product_category where category_id='{category.Category_id}'";
+
+            return Delete(query);
+        }
+        public string DeleteSubcategory(Product_Subcategory subcategory)
+        {
+            string query = $"delete from product_subcategory where subcategory_id='{subcategory.Subcategory_id}'";
+
+            return Delete(query);
+        }
+
+        public string DeleteProduct(Product product)
+        {
+            string query = $"dalete from product where product_id='{product.Product_id}'";
+
+            return Delete(query);
+        }
+
+        public string DeletePackage(Package package)
+        {
+            string query = $"delete from package where package_id='{package.Package_id}'";
+
+            return Delete(query);
+        }
+
+        public string DeleteProductImage(Product_Image image)
+        {
+            string query = $"delete from product_image where product_id='{image.Product_id}'";
+
+            return Delete(query);
         }
 
     }

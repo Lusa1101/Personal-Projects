@@ -45,10 +45,10 @@ namespace BusinessManager
 
         public List<Stock> Stocks = new List<Stock>()
         {
-            new Stock { Stock_id=563, Product_id="P37836", Cost_per_unit=20, Total_units=100, Unit_price=80 },
-            new Stock { Stock_id=562, Product_id="P37840", Cost_per_unit=30, Total_units=50, Unit_price=120 },
+            new Stock { Stock_id=563, Product_id="P37836", Cost=20, Total_units=100, Unit_price=80 },
+            new Stock { Stock_id=562, Product_id="P37840", Cost=30, Total_units=50, Unit_price=120 },
 
-            new Stock { Stock_id=636, Product_id="P37841", Cost_per_unit=5, Total_units=500, Unit_price=0 }
+            new Stock { Stock_id=636, Product_id="P37841", Cost=5, Total_units=500, Unit_price=0 }
         };
 
         public List<Package> Packages = new List<Package>()

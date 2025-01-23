@@ -1,20 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BusinessManager.MainPage">
+             x:Class="BusinessManager.MainPage"
+             xmlns:viewmodel="clr-namespace:BusinessManager.ViewModels"
+             xmlns:model="clr-namespace:BusinessManager.Models"
+             xmlns:local="clr-namespace:BusinessManager"
+             x:DataType="viewmodel:MainViewModel"
+             BindingContext="{x:Static local:App.mainViewModel}">
 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
 
-            <Button Text="ADD"
-                    Clicked="OnAdd"
-                    Style="{StaticResource universalButton}"/>
+            <Label Text="Welcome to your Business Manager Application"
+                   Style="{StaticResource header}"/>
+
+            <Button Text="Refresh" x:Name="button"
+                    Clicked="OnRefreshTotal"/>
+
+            <CollectionView ItemsSource="{Binding Products}" x:Name="collection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView x:DataType="model:DisplayProduct">
+                            <SwipeView.RightItems>
+                                <SwipeItem Text="Delete" BackgroundColor="IndianRed"
+                   Command="{Binding DeleteCommand, Source={x:Static local:App.mainViewModel}}"
+                   CommandParameter="{Binding .}"/>
+                            </SwipeView.RightItems>
+                            <Grid ColumnDefinitions="3*, *, *, *, *, *">
+                                <Label Text="{Binding Name}" Grid.Column="0" VerticalOptions="Center"/>
+                                <Label Text="{Binding Price, StringFormat='{}{0:F2}'}" Grid.Column="1" VerticalOptions="Center"/>
+                                <ImageButton Source="icons8_minus.png" Grid.Column="2" HorizontalOptions="End"
+                     Command="{Binding ReduceCommand, Source={x:Static local:App.mainViewModel}}" CommandParameter="{Binding .}"/>
+                                <Label Text="{Binding Quantity, StringFormat='{0}'}" Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <ImageButton Source="icons8_add.png" Grid.Column="4" HorizontalOptions="Start"
+                     Command="{Binding AddCommand, Source={x:Static local:App.mainViewModel}}" CommandParameter="{Binding .}"/>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="{Binding Total}"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+
+            <Label Text="Testing"/>
+
+            <Entry x:Name="entry" />
+            <Label x:Name="label"/>
+
         </VerticalStackLayout>
     </ScrollView>
 

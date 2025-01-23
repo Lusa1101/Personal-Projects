@@ -1,0 +1,66 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusinessManager.Views.ManagePage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15"
+                             Padding="10">
+            <Picker Title="What do you want to manage"
+                    x:Name="filter"
+                    SelectedIndexChanged="OnFilterSelected"/>
+
+            <StackLayout x:Name="productLayout"
+                         Spacing="5">
+                <CollectionView x:Name="collection" SelectionChanged="OnSelected">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Margin="20" Padding="20">
+                                <Grid RowSpacing="10" ColumnSpacing="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="4*"/>
+                                        <RowDefinition Height="4*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Name}" Grid.Column="0" Grid.Row="0"/>
+                                    <Label Text="{Binding Size}" Grid.Column="0" Grid.Row="1"/>
+                                    <Button Text="Edit" Grid.Column="1"/>
+                                    <Button Text="Delete" Grid.Column="2"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    
+                </CollectionView>
+            </StackLayout>
+
+            <StackLayout x:Name="categoryLayout">
+                
+            </StackLayout>
+
+            <StackLayout x:Name="subcategoryLayout">
+                
+            </StackLayout>
+
+            <StackLayout x:Name="stockLayout">
+                
+            </StackLayout>
+
+            <StackLayout x:Name="packageLayout">
+                
+            </StackLayout>
+
+            <StackLayout x:Name="packagingLayout">
+                
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

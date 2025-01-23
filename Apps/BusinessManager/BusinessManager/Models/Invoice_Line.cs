@@ -12,8 +12,8 @@ namespace BusinessManager.Models
         public int Line_id {  get; set; }
 
         public int Stock_id { get; set; }
-        public int Quantity { get; set; }
-        public decimal Discount { get; set; }
+        public int Quantity { get; set; } = 1;
+        public decimal Discount { get; set; } = 0m;
         public DateOnly? DateCreated { get; set; }
     }
 }

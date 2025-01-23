@@ -1,6 +1,8 @@
 ﻿using BusinessManager.Models;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -72,11 +74,6 @@ namespace BusinessManager
             return list;
         }
 
-        public async void DisplayMessage(string header, string msg)
-        {
-            //await DisplayAlert($"{header}", $"{msg}", "Okay");
-        }
-
         public string CodeGenerator(string type, int number)
         {
             StringBuilder code = new StringBuilder();
@@ -111,6 +108,153 @@ namespace BusinessManager
             return code.ToString();
         }
 
+        public int GetLastId(List<Product_Category> categories)
+        {
+            string code="";
+
+            if (!categories.IsNullOrEmpty())
+            {
+                code = categories[0].Category_id;
+
+                foreach (Product_Category category in categories)
+                {
+                    if (ReturnIndex(code) < ReturnIndex(category.Category_id)) 
+                        code = category.Category_id;
+                }
+            }
+
+            return ReturnIndex(code);
+        }
+
+        public int GetLastId(List<Product_Subcategory> subcategories)
+        {
+            string code = "";
+
+            Debug.WriteLine(subcategories.Count);
+
+            if (!subcategories.IsNullOrEmpty())
+            {
+                if (subcategories[0].Subcategory_id != null)
+                    code = subcategories[0].Subcategory_id;
+
+                foreach (Product_Subcategory subcategory in subcategories)
+                {
+                    if (ReturnIndex(code) < ReturnIndex(subcategory.Subcategory_id))
+                        code = subcategory.Subcategory_id;
+                }
+            }
+
+            return ReturnIndex(code);
+        }
+
+        public int GetLastId(List<Package> packages)
+        {
+            string code = "1";
+
+            if (!packages.IsNullOrEmpty())
+            {
+                code = packages[0].Package_id;
+
+                foreach (Package package in packages)
+                {
+                    if (ReturnIndex(code) < ReturnIndex(package.Package_id))
+                        code = package.Package_id;
+                }
+            }
+
+            return ReturnIndex(code);
+        }
+
+        public int GetLastId(List<Invoice> invoices)
+        {
+            int code = 1;
+
+            if (!invoices.IsNullOrEmpty())
+            {
+                code = invoices[0].Invoice_id;
+
+                foreach (Invoice invoice in invoices)
+                {
+                    if (code < invoice.Invoice_id)
+                        code = invoice.Invoice_id;
+                }
+            }
+
+            return code;
+        }
+
+        public int GetLastId(List<Invoice_Line> lines)
+        {
+            int code = 1;
+
+            if (!lines.IsNullOrEmpty())
+            {
+                code = lines[0].Invoice_id;
+
+                foreach (Invoice_Line line in lines)
+                {
+                    if (code < line.Line_id)
+                        code = line.Line_id;
+                }
+            }
+
+            return code;
+        }
+
+        public int GetLastId(List<Packaging> packagings)
+        {
+            string code = "";
+
+            if (!packagings.IsNullOrEmpty())
+            {
+                code = packagings[0].Packaging_id;
+
+                foreach (Packaging packaging in packagings)
+                {
+                    if (ReturnIndex(code) < ReturnIndex(packaging.Packaging_id))
+                        code = packaging.Packaging_id;
+                }
+            }
+
+            return ReturnIndex(code);
+        }
+
+        public int GetLastId(List<Essential> essentials)
+        {
+            int code = 1;
+
+            if (!essentials.IsNullOrEmpty())
+            {
+                code = essentials[0].Essential_id;
+
+                foreach (Essential essential in essentials)
+                {
+                    if (code < essential.Essential_id)
+                        code = essential.Essential_id;
+                }
+            }
+
+            return code;
+        }
+
+        public int GetLastId(List<Stock> stocks)
+        {
+            int code = 1;
+
+            if (!stocks.IsNullOrEmpty())
+            {
+                code = stocks[0].Stock_id;
+
+                foreach (Stock stock in stocks)
+                {
+                    if (code < stock.Stock_id)
+                        code = stock.Stock_id;
+                }
+            }
+
+            return code;
+        }
+
         public decimal DecimalConverter(string temp)
         {
             if (temp.Contains(","))
@@ -123,29 +267,84 @@ namespace BusinessManager
 
         public int IntegerConverter(string value)
         {
-            return Convert.ToInt32(value);
+            int number = -1;
+
+            try
+            {
+                number = int.Parse(value);
+            }
+            catch (FormatException ex)
+            {
+                Debug.WriteLine("Failed to convert int: " + ex.Message);
+            }
+
+            return number;
         }
 
         public bool BoolConverter(string value)
         {
-            return Convert.ToBoolean(value);
+            bool result = false;
+
+            try
+            {
+                result = bool.Parse(value);
+            }
+            catch (FormatException ex)
+            {
+                Debug.WriteLine("Failed to convert bool: " + ex.Message);
+            }
+
+            return result;
         }
 
         public int ReturnIndex(string code)
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            string stringBuilder = "";
 
             for (int i = 0; i < code.Length; i++)
             {
-                if (Char.IsDigit(code[i]))
+                if (char.IsDigit(code[i]))
+                {
                     for (int j = i; j < code.Length; j++)
-                        stringBuilder.Append(code[j]);
+                    {
+                        stringBuilder += code[j];
+                    }
 
-                break;
+                    break;
+                }
             }
 
             return IntegerConverter(stringBuilder.ToString());
         }
 
+        public bool CheckEntry(Entry entry)
+        {
+            if (entry.Text != null && entry.Text.Length > 1)
+                return true;
+
+            return false;
+        }
+
+        public void EntryToNull(Entry entry)
+        {
+            entry.Text = null;
+        }
+
+        public bool CheckEntryLength(Editor entry, int max)
+        {
+            if (entry.Text != null && entry.Text.Length < max)
+                return true;
+            else if (entry.Text == null)
+                return true;
+            return false;
+        }
+        public bool CheckEntryLength(Entry entry, int max)
+        {
+            if (entry.Text != null && entry.Text.Length < max)
+                return true;
+            else if (entry.Text == null)
+                return true;
+            return false;
+        }
     }
 }

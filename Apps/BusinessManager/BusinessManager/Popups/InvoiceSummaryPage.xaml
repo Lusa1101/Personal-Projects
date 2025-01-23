@@ -1,0 +1,76 @@
+<ctm:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:ctm="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+           x:Class="BusinessManager.Popups.InvoiceSummaryPage"
+           xmlns:viewmodel="clr-namespace:BusinessManager.ViewModels"
+           xmlns:model="clr-namespace:BusinessManager.Models"
+           xmlns:local="clr-namespace:BusinessManager"
+           x:DataType="viewmodel:InvoiceSummaryViewModel"
+           Size="450,450">
+
+    <ctm:Popup.Resources>
+        <ResourceDictionary>
+            <Style x:Key="invoiceHeader" TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+            <Style x:Key="invoiceItem" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+            <Style x:Key="invoicePrice" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+            <Style x:Key="invoiceFooter" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+        </ResourceDictionary>
+    </ctm:Popup.Resources>
+
+    <ScrollView>
+        <StackLayout Spacing="10"
+                     Padding="10">
+            
+            <Label Text="Invoice Summary"/>
+            <BoxView HeightRequest="2"
+                     Color="Black"/>
+
+            <CollectionView ItemsSource="{Binding Products}" x:Name="collection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView x:DataType="model:DisplayProduct">
+                            <SwipeView.RightItems>
+                                <SwipeItem Text="Delete" BackgroundColor="IndianRed"
+                               Command="{Binding DeleteCommand, Source={x:Static local:App.summaryViewModel}}"
+                               CommandParameter="{Binding .}"/>
+                            </SwipeView.RightItems>
+                            <Grid ColumnDefinitions="3*, *, *, *, *, *">
+                                <Label Text="{Binding Name}" Grid.Column="0" VerticalOptions="Center"/>
+                                <Label Text="{Binding Price, StringFormat='{}{0:F2}'}" Grid.Column="1" VerticalOptions="Center"/>
+                                <ImageButton Source="icons8_minus.png" Grid.Column="2" HorizontalOptions="End"
+                                 Command="{Binding ReduceCommand, Source={x:Static local:App.summaryViewModel}}" CommandParameter="{Binding .}"/>
+                                <Label Text="{Binding Quantity, StringFormat='{0}'}" Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <ImageButton Source="icons8_add.png" Grid.Column="4" HorizontalOptions="Start"
+                                 Command="{Binding AddCommand, Source={x:Static local:App.summaryViewModel}}" CommandParameter="{Binding .}"/>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <BoxView HeightRequest="2" Color="Black"/>
+            <Grid ColumnDefinitions="3*, *">
+                <Label Text="Total" Grid.Column="0"/>
+                <Label x:Name="total" Grid.Column="1"/>
+            </Grid>
+
+            <Label x:Name="result"/>
+
+            <HorizontalStackLayout Spacing="5" Padding="5" HorizontalOptions="Center">
+                <Button Text="Submit" x:Name="submitButton"
+                        Clicked="OnSubmitInvoice"/>
+                <Button Text="Close"
+                        Clicked="OnCloseInvoiceSummary"/>
+            </HorizontalStackLayout>
+        </StackLayout>
+    </ScrollView>
+    
+</ctm:Popup>
