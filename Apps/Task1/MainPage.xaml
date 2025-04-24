@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Task1"
+             xmlns:dataGrid="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             x:Class="Task1.MainPage"
+             Title="Clients"
+             BackgroundColor="Gray">
+
+    <ContentPage.BindingContext>
+        <local:ClientViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid ColumnDefinitions="*, 2*" Padding="20" ColumnSpacing="23">
+
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Entry">
+                    <Setter Property="BackgroundColor" Value="WhiteSmoke"/>
+                    <Setter Property="TextColor" Value="Black"/>
+                    <Setter Property="WidthRequest" Value="250"/>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <Grid RowDefinitions="*, *, *, *, *, Auto" ColumnDefinitions="*, Auto, *"
+              RowSpacing="30" Padding="30" HorizontalOptions="Start" Grid.Column="0">
+
+            <Entry Grid.Row="0" Grid.Column="1" Placeholder="Client Name"
+                   Keyboard="Text" Text="{Binding Name}"/>
+            
+            <Entry Grid.Row="1" Grid.Column="1" Placeholder="Address/Location"
+                   Keyboard="Text" Text = "{Binding Address}" />
+            
+            <Entry Grid.Row="2" Grid.Column="1" Keyboard="Numeric"
+                   Placeholder="Cell" Text="{Binding Cell}" />
+
+            <Button Grid.Row="4" Grid.Column="1" x:Name="submitClient"
+                    Text="Submit" Command="{Binding InsertCommand}" />
+
+        </Grid>
+
+        <StackLayout Spacing=" 30" Padding="30" Grid.Column="1" BackgroundColor="LightCyan">
+
+            <dataGrid:SfDataGrid ItemsSource="{Binding Clients}" ColumnWidthMode="Auto" SortingMode="Multiple">
+                <dataGrid:SfDataGrid.Columns>
+                    <dataGrid:DataGridNumericColumn MappingName="Client_id" HeaderText="Client ID" Format="0"/>
+                    <dataGrid:DataGridTextColumn MappingName="Name" HeaderText="Names"/>
+                    <dataGrid:DataGridTextColumn MappingName="Address" HeaderText="Address"/>
+                    <dataGrid:DataGridTextColumn MappingName="Phone_Number" HeaderText="Cell" Format="0"/>
+                </dataGrid:SfDataGrid.Columns>
+            </dataGrid:SfDataGrid>
+            
+        </StackLayout>
+        
+    </Grid>
+
+</ContentPage>
